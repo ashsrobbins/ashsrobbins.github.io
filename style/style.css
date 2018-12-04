@@ -150,7 +150,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: transparent url(transparent_light.png) repeat;}
 
 #site_content
-{ width: 854px;
+{ width: 854+300px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
@@ -180,9 +180,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   text-decoration: none;} 
 
 #content
-{ text-align: left;
-  float: left;
-  width: 595px;
+{ margin: 0 auto;
+  text-align: left;
+  /*float: left;*/
+ /* width: 595px;*/
+  width: 680px;
   padding: 0;}
 
 #content ul

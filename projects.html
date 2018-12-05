@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>black_white - a page</title>
+  <title>Ash Robbins</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -15,8 +15,8 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">black<span class="logo_colour">_white</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+          <h1><a href="index.html">Ash<span class="logo_colour"> Robbins</span></a></h1>
+          <h2>Robotics and Artificial Intelligence Researcher</h2>
         </div>
       </div>
       <div id="menubar">
@@ -31,50 +31,109 @@
       </div>
     </div>
     <<div id="site_content">
-		<!--
-      <div class="sidebar">
-        <h3>Latest News</h3>
-        <h4>New Website Launched</h4>
-        <h5>July 1st, 2014</h5>
-        <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        <p></p>
-        <h4>New Website Launched</h4>
-        <h5>July 1st, 2014</h5>
-        <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        <h3>Useful Links</h3>
-        <ul>
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-          <li><a href="#">link 3</a></li>
-          <li><a href="#">link 4</a></li>
-        </ul>
-        <h3>Search</h3>
-        <form method="post" action="#" id="search_form">
-          <p>
-            <input class="search" type="text" name="search_field" value="Enter keywords....." />
-            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-          </p>
-        </form>
-      </div>
-	  -->
       <div id="content">
         <!-- insert the page content here -->
-        <h1>Cheap Inverted Pendulum Wheeled Robot</h1>
+        <h1>(Low-cost) Inverted Pendulum Wheeled Robot</h1>
         <span class="left"><img src="media/two_wheel.gif" alt="example graphic" height = 200 /></span>
         <p>
           This robot was made by myself as an experience to teach my fellow Tau Beta Pi members how to simply create a robot with inputs and outputs in order to test control algorithms in the real world.
         </p>
 		<p>
-		The total cost was ~$40, with the majority of the cost including the IMU, motors, and arduino microcontroller.
-		A better video will be uploaded soon of the robot working well!
+			The total cost was ~$40, with the majority of the cost including the IMU, motors, and arduino microcontroller.
+			A better video will be uploaded soon of the robot working well!
 		</p>
         
-       
       </div>
+	  
     </div>
+	<<div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Ash-bot</h1>
+        <!--<span class="left"><img src="media/two_wheel.gif" alt="example graphic" height = 200 /></span>-->
+        <p>
+          Not officially a robot yet, but hopefully soon to be embodied. Ash-bot is a text based speech generator that is built from my facebook chat data. Phrases are generated with different diversity, making more unique(but less intelligible) sentences.
+        </p>
+		<p>
+		Ash-bot was created using deep-learning, specifically Long Short-Term Memory (LSTM) Networks. Currently the model operates with letter embeddings(opposed to encoding words).
+		</p>
+		<p>
+		<h4>Future tasks:</h4>
+		<ul>
+          <li>Bring in data from my texts, emails, etc.</li>
+          <li>Host chat-bot on this site that can be interacted with</li>
+		  <li>Give Ash-bot a robotic body, training through time(potentially with reinforcement learning where emotional valence of words modulate rewards) </li>
+        </ul>
+		<a class = 'kinda-link' id = "ex1btn" onclick="myFunction()">Example 1</a>
+		</p>
+		 
+		  <span id="Ex1">
+		 
+		 
+		<pre class=bash id = x1>
+		
+----- Generating with seed: "                      my name is ash and"
+                      my name is ash and go on could a court me but i have a come to she to the gets on my facuut that would be basecal that?
+
+hahah its a long tomorrow
+
+well that was an a probam dama and did?
+
+i have a lot of stuff come to me me there
+
+how do you know how it was it?
+
+ohh ohh yeah, i cant gonna be day a febore tomorrow
+
+i have that work!!
+
+		</pre>
+		ASHASHASHS
+		 </span>
+		
+			
+	   
+      </div>
+	  
+    </div>
+	
     <div id="footer">
       Copyright &copy; black_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Free CSS Templates</a>
     </div>
   </div>
+  
+  <script>
+function myFunction() {
+	var btn = document.getElementById("ex1btn");
+	
+	var ex1 = document.getElementById("Ex1");
+	if (ex1.style.display === "inline"){
+		
+		ex1.style.display = "none";
+		btn.innerHTML = "Example 1";
+	}else{
+		ex1.style.display = "inline";
+		btn.innerHTML = "Hide Example 1";
+	}
+}
+</script>
+  <!--
+  <script>
+	function myFunction(){
+		var btn = document.getElementById("ex1btn");
+		btn.Text.innerHTML = "Example 1";
+		var ex1 = document.getElementById("x1");
+		
+		if ex1.style.display === "none"){
+			ex1.style.display = "inline";
+			btn.Text.innerHTML = "Go away Example 1";
+		}else{
+			ex1.style.display = "inline";
+			btn.Text.innerHTML = "Example 1";
+		}
+		}
+	</script>
+  -->
+  
 </body>
 </html>

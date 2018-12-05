@@ -292,3 +292,21 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
+  
+  
+pre.bash 
+{ background-color: black;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+  white-space: pre-wrap;
+ 
+  margin: 0 auto 0 auto;
+  font-size: small ; 
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
+a.kinda-link:hover 
+{ cursor: pointer; }
+
+#Ex1 {display:none;}

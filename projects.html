@@ -6,6 +6,7 @@
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
 </head>
 
@@ -23,7 +24,7 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Home</a></li>
-          <li><a href="examples.html">Examples</a></li>
+          <li><a href="research.html">Research</a></li>
           <li class="selected"><a href="projects.html">Projects</a></li>
           <li><a href="another_page.html">Another Page</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -65,11 +66,11 @@
 		  <li>Give Ash-bot a robotic body, training through time(potentially with reinforcement learning where emotional valence of words modulate rewards) </li>
         </ul>
 		<a class = 'kinda-link' id = "ex1btn" onclick="myFunction()">Example 1</a>
+		
+		
 		</p>
 		 
-		  <span id="Ex1">
-		 
-		 
+		<span id="Ex1">
 		<pre class=bash id = x1>
 		
 ----- Generating with seed: "                      my name is ash and"
@@ -88,7 +89,49 @@ ohh ohh yeah, i cant gonna be day a febore tomorrow
 i have that work!!
 
 		</pre>
-		ASHASHASHS
+		 </span>
+		 
+		 <p><a class = 'kinda-link' id = "ex2btn" onclick="myFunction2()">Example 2</a></p>
+		
+		 <span id="Ex2">
+		<pre class=bash id = x2>
+		
+----- diversity: 0.6
+----- Generating with seed: "                  the meaning of life is"
+                  the meaning of life is the right now
+
+it sucks, i think i am anahta isnt the connow
+
+what did you dont even with the bent the beat to kees in a asou friends, its gonna be a take a whole posters the probably mest the same in funny
+
+then til you gonna try to make you can be there??
+
+anything, im there anything it?
+
+hey, im gonna strall out to the math me and when you want to find?
+
+yeahh i teneraly baseball talk at is th
+
+
+		</pre>
+		
+		 </span>
+		 <p><a class = 'kinda-link' id = "ex3btn" onclick="myFunction3()">Example 3</a></p>
+		 
+		 <span id="Ex3">
+		<pre class=bash id = x3>
+		
+what do you know the same to find out of the taste at all the other that she was and there are you got a party too
+
+alright i was her that she was all the other that was the whole thing to the other the other the taste at all of the site
+
+http://www.youtube.com/watch?v=iTHOh77
+
+its a termind something to a telm to the morning to the same to make me tentions of the same to get the math home
+
+
+		</pre>
+		
 		 </span>
 		
 			
@@ -105,8 +148,12 @@ i have that work!!
   <script>
 function myFunction() {
 	var btn = document.getElementById("ex1btn");
-	
 	var ex1 = document.getElementById("Ex1");
+	
+	
+	
+	
+	
 	if (ex1.style.display === "inline"){
 		
 		ex1.style.display = "none";
@@ -115,6 +162,43 @@ function myFunction() {
 		ex1.style.display = "inline";
 		btn.innerHTML = "Hide Example 1";
 	}
+	
+	}
+
+function myFunction2() {
+
+	
+	var btn2 = document.getElementById("ex2btn");
+	var ex2 = document.getElementById("Ex2");
+	
+	if (ex2.style.display === "inline"){
+		
+		ex2.style.display = "none";
+		btn2.innerHTML = "Example 2";
+	}else{
+		ex2.style.display = "inline";
+		btn2.innerHTML = "Hide Example 2";
+	}
+		
+}
+
+function myFunction3() {
+
+	
+	var btn3 = document.getElementById("ex3btn");
+	var ex3 = document.getElementById("Ex3");
+	
+	
+	
+	
+	if (ex3.style.display === "inline"){
+		
+		ex3.style.display = "none";
+		btn3.innerHTML = "Example 3";
+	}else{
+		ex3.style.display = "inline";
+		btn3.innerHTML = "Hide Example 3";
+	}	
 }
 </script>
   <!--

@@ -64,6 +64,13 @@ a:hover
 { float: right; 
   width: auto;
   margin-left: 10px;}
+  
+.righttitle
+{ float: left; 
+  width: auto;
+  margin-top: 20px;
+  margin-left: 34.5%;}
+
 
 .center
 { display: block;
